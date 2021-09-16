@@ -6,3 +6,4 @@ ten = "Nguyen Anh Khoa"
 tuoi = 20
 PI=3.14
 print(ten,tuoi,PI)
+type(ten)
