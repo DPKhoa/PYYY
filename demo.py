@@ -18,6 +18,7 @@ f = 10/3
 print(f)
 print(type(f))
 
+
 #phân số 
 from fractions import*
 frac = Fraction(6,9)
@@ -32,3 +33,26 @@ com=complex(2,5)
 print(com)
 print(com.real)
 print(com.imag)
+
+import math   # lấy nội dung của thư viện math về sử dụng
+ math.trunc(3.9)
+ math.fabs(-3)
+ math.sqrt(16)
+ math.gcd(6, 4)
+
+a = 8
+b = 3
+a + b   # tương đương 8 cộng 3
+
+a – b    # tương đương 8 trừ 3
+
+a * b   # tương đương 8 nhân 3
+
+a / b   # tương đương 8 chia 3
+
+a // b  # tương đương với 8 chia nguyên 3
+
+a % b   # tương đương với 8 chia dư 3
+
+a ** b   # tương đương 8 mũ 3
+
