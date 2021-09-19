@@ -15,9 +15,3 @@ print('xuongdong\ndum cai\nnha')
 print('I\'m beginner')
 print("one thing\"spefical\",that\'s it")
 print'''
-'"Đây là những dòng chú thích  đầu file Về việc import các thư viên, module"'
-import lungtung
-import taolao
-
-def ham_vo_dung():
-	'"Còn đây là docstring cho một function.Đó là hàm vô dụng"'
