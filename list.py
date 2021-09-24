@@ -25,3 +25,4 @@ c = b.rstrip('%%abcxyznontqfadf')
 print(c)
 
 print(a.partition("TTT")[1])# lấy giá trị index thứ 1
+#code = a.split('&&')[-1].split('%%')[0]
