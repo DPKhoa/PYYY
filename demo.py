@@ -1,5 +1,5 @@
 # gán cho biến a giá trị là 4 .VỚi 4 là số nguyên 
-a = 4 
+'''a = 4 
 print(a)
 #kiểu dữ của a
 print(type(a))
@@ -32,15 +32,15 @@ print(frac2)
 com=complex(2,5)
 print(com)
 print(com.real)
-print(com.imag)
+print(com.imag)'''
 
 import math   # lấy nội dung của thư viện math về sử dụng
- math.trunc(3.9)
- math.fabs(-3)
+math.trunc(3.9)
+'''math.fabs(-3)
  math.sqrt(16)
- math.gcd(6, 4)
+ math.gcd(6, 4)'''
 
-a = 8
+'''a = 8
 b = 3
 a + b   # tương đương 8 cộng 3
 
@@ -54,5 +54,5 @@ a // b  # tương đương với 8 chia nguyên 3
 
 a % b   # tương đương với 8 chia dư 3
 
-a ** b   # tương đương 8 mũ 3
+a ** b   # tương đương 8 mũ 3'''
 
