@@ -1,19 +1,19 @@
-a = "hello Khoa dep trai"
+##a = "hello Khoa dep trai"
 #chữ đầu tiên viết hoa
-b = a.capitalize()
+##b = a.capitalize()
 #Tất cả các chữ viết hoa
-b = a.upper()#lower tất cả viết thường
+##b = a.upper()#lower tất cả viết thường
 #chữ viết hoa sẽ viết thường và ngược lại  
-b = a.swapcase()
+##b = a.swapcase()
 #print(b)
 a = 'Kteam'
 #canh giữa ,kí tự fillchar và fillchare có đô dài là nên k thể điền --
 b = a.center(30, '*')
 # canh trái rjust , canh trái là ljust
-#print(a)
-#print(b)
+print(a)
+print(b)
 #dùng mã hóa định dạng của kiểu dữ liệu
-a = 'có gì hót'
+'''a = 'có gì hót'
 b = a.encode()
 #print(a)
 #print(b)
@@ -27,4 +27,4 @@ b=a.replace('ó','Khoa',1)
 a = '   có gì hót'
 b=a.strip()
 #rstrip,lstrip:cắt phải cắt trái
-print(b)
+print(b)'''
