@@ -39,6 +39,3 @@ print(a)'''
 #Sap xep xem co dao chieu hay k Reserve=True se dao chieu va nguoc lai
 #sap xep lai thu tu cung kieu du lieu
 #print(a)
-a = [[1, 2], ['abc', 'def']]
-a.sort()
-print(a)
