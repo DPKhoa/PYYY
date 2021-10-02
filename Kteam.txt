@@ -1,0 +1,7 @@
+How Kteam
+Free Education
+
+Share to better
+
+print('hello world!')
+K2K2
