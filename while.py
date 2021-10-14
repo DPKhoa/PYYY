@@ -3,15 +3,17 @@ while k > 0:
 	print('k =',k)
 	k -= 1
 '''
-'''s = 'HowKteamo'
+'''
+s = 'HowKteamo'
 idx = 0
 length = len(s)
 while idx < length:
 	print(idx, 'stands for', s[idx])
 	idx += 1
 '''
-'''five_even_numbers = []
-k_number = 1
+five_even_numbers = []
+print(type(five_even_numbers))
+'''k_number = 1
 while True:
 	if k_number % 2 == 0:
 		five_even_numbers.append(k_number)
@@ -38,11 +40,12 @@ while k < 3:
 else:
 	print('k is not less than 3 anymore')
 '''
+
+# bài 2
 with open('draft.txt') as f:
     # lấy nội dung của file dưới dạng một list
     data = f.readlines()
-# bài 2
-'''idx = 0 # mốc bắt đầu
+idx = 0 # mốc bắt đầu
 length = len(data) # mốc kết thúc
 new_content = '' # nội dung mới sẽ ghi vào file mới
 
@@ -66,7 +69,7 @@ while idx < length:
 with open('kteam.txt', 'w') as new_f:
     # ghi nội dung mới vào file kteam.txt
     new_f.write(new_content)
-    '''
+    
 # bài 3
 '''#C1
 lst = [56, 14, 11, 756, 34, 90, 11, 11, 65, 0, 11, 35]
@@ -89,7 +92,7 @@ while idx < maidx:
     idx += 1
 print(lst)
 '''
-a = [56, 14, 11, 756, 34, 90, 11, 11, 65, 0, 11, 35]
+'''a = [56, 14, 11, 756, 34, 90, 11, 11, 65, 0, 11, 35]
 
 # Loại bỏ các số 11
 b = [i for i in a if i!=11]
@@ -104,3 +107,4 @@ b.sort()
 for j in c:
     b.insert(j,11)
 print(b)
+'''
